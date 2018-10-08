@@ -1,4 +1,4 @@
-#This project will implement the following functions:
+# This project will implement the following functions:
 
 1. read the audio files, such as .wav .mp3
 2. write audio files, such as .wav .mp3
@@ -7,11 +7,11 @@
 5. transfer audio spectrum to audio frequency spectrum with FFT
 6. transfer audio frequency spectrum to audio spectrum with IFFT
 
-##develop tool:
+## develop tool:
 
 visual studio
 
-##language:
+## language:
 
 c#
 
