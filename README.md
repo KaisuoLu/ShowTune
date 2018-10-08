@@ -1,4 +1,4 @@
-# This project will implement the following functions:
+# This project will implement the following features:
 
 1. read the audio files, such as .wav .mp3
 2. write audio files, such as .wav .mp3
