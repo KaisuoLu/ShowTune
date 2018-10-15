@@ -218,10 +218,17 @@ namespace ShowWaveForm
         private void fileSaveAs_Click(object sender, EventArgs e)
         {
             SaveFileDialog dialogSave = new SaveFileDialog();
-            if (dialogSave.ShowDialog() == DialogResult.OK)
+            if (filename == null || filename.Length == 0)
             {
-                wave.Write(dialogSave.FileName);
+                MessageBox.Show("please open a file first!");
+            }
+            else
+            {
+                if (dialogSave.ShowDialog() == DialogResult.OK)
+                {
+                    wave.Write(dialogSave.FileName);
 
+                }
             }
         }
 
